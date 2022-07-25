@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  OrderProcessingUnit.cpp
+  Generating Code...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1371,5): warning MSB8012: TargetPath(C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnit\x64\OrderProcessingUnit.dll) does not match the Linker's OutputFile property value (C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnit\x64\Release\OrderProcessingUnit.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  OrderProcessingUnit.vcxproj -> C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnit\x64\OrderProcessingUnit.dll

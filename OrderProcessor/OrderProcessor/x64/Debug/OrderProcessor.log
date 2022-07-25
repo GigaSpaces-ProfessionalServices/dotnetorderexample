@@ -1,0 +1,4 @@
+﻿  FillProcessor.cpp
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\FillProcessor.cpp(146,21): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  OrderProcessor.vcxproj -> C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\x64\Debug\OrderProcessor.exe
