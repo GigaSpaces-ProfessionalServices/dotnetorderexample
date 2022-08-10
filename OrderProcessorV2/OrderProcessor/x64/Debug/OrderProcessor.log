@@ -1,0 +1,35 @@
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  FillFeeder.cpp
+  FillProcessor.cpp
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\FillProcessor.cpp(146,21): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+  GS_Fill.cpp
+  GS_Order.cpp
+  Logger.cpp
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\Logger.cpp(39,25): warning C4129: 'G': unrecognized character escape sequence
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\Logger.cpp(39,25): warning C4129: 's': unrecognized character escape sequence
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\Logger.cpp(39,25): warning C4129: 'N': unrecognized character escape sequence
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\Logger.cpp(39,25): warning C4129: 'E': unrecognized character escape sequence
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\Logger.cpp(39,25): warning C4129: 'O': unrecognized character escape sequence
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\Logger.cpp(39,25): warning C4129: 'l': unrecognized character escape sequence
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\Logger.cpp(40,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  NewOrderListner.cpp
+  OrderMsg.cpp
+  OrderProcessor.cpp
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(65,32): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(68,29): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(71,31): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(74,38): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(77,46): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(230,22): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(235,30): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(263,21): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(269,28): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+  OrderProcessorThread.cpp
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessorThread.cpp(75,22): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessorThread.cpp(20,7): warning C4101: 'logtext': unreferenced local variable
+  Timer.cpp
+  Generating Code...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  OrderProcessor.vcxproj -> C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\x64\Debug\OrderProcessor.exe

@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "x86" and the processor architecture of the reference "GigaSpaces.Core", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+  pch.cpp
+  AssemblyInfo.cpp
+  OrderProcessor.cpp
+  Generating Code...
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  OrderProcessor.vcxproj -> C:\GigaSpaces\smart-cache.net-16.1.1-x64\NET v4.0\Examples\OrderProcessor\OrderProcessor\Debug\OrderProcessor.exe

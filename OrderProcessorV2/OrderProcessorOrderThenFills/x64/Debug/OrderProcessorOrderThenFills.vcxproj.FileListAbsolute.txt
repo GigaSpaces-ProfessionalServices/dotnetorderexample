@@ -1,0 +1,3 @@
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessorOrderThenFills\x64\Debug\OrderProcessorOrderThenFills.vcxproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessorOrderThenFills\x64\Debug\OrderProcessorOrderThenFills.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessorOrderThenFills\x64\Debug\OrderProcessorOrderThenFills.vcxproj.CopyComplete

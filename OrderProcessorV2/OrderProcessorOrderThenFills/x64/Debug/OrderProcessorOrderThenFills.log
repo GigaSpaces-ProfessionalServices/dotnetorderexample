@@ -1,0 +1,5 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (OrderProcessor.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  FillProcessor.cpp
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessorOrderThenFills\FillProcessor.cpp(176,21): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  OrderProcessorOrderThenFills.vcxproj -> C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\x64\Debug\OrderProcessorOrderThenFills.exe

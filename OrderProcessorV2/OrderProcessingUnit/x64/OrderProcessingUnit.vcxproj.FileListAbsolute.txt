@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnit\x64\OrderProcessingUnit.vcxproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnit\x64\OrderProcessingUnit.vcxproj.CopyComplete
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnit\x64\GigaSpaces.Examples.ProcessingUnit.Common.dll
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnit\x64\GigaSpaces.Examples.ProcessingUnit.Common.pdb
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnit\x64\GigaSpaces.Practices.ExternalDataSource.NHibernate.dll
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnit\x64\NHibernate.dll
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnit\x64\Iesi.Collections.dll
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnit\x64\GigaSpaces.Practices.ExternalDataSource.NHibernate.pdb
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnit\x64\NHibernate.pdb
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnit\x64\NHibernate.xml
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnit\x64\Iesi.Collections.pdb
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnit\x64\Iesi.Collections.xml

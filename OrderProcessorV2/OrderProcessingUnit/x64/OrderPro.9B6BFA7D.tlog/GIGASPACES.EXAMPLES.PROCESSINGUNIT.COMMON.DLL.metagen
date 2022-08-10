@@ -1,0 +1,27 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly GigaSpaces.Examples.ProcessingUnit.Common, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly GigaSpaces.Core, Version=16.1.0.0, Culture=neutral, PublicKeyToken=94297b57ee0e4ad5: 
+	hash=None, flags=None
+Class GigaSpaces.Examples.ProcessingUnit.Common.Data: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Nullable`1[System.Int32]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Id 'get set' : 
+    System.Nullable`1[System.Int32] Type 'get set' : 
+    System.String Info 'get set' : 
+    Boolean Processed 'get set' : 
+  Methods:
+    get_Id(): PrivateScope, Public, HideBySig, SpecialName
+    set_Id(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Type(): PrivateScope, Public, HideBySig, SpecialName
+    set_Type(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Info(): PrivateScope, Public, HideBySig, SpecialName
+    set_Info(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Processed(): PrivateScope, Public, HideBySig, SpecialName
+    set_Processed(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Interface GigaSpaces.Examples.ProcessingUnit.Common.IProcessorStatisticsProvider: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    GetProcessObjectCount(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract

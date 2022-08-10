@@ -1,0 +1,12 @@
+﻿  OrderProcessor.cpp
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(65,32): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(68,29): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(71,31): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(74,38): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(77,46): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(231,22): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(236,30): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(264,21): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessor\OrderProcessor.cpp(270,28): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  OrderProcessor.vcxproj -> C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\x64\Debug\OrderProcessor.exe

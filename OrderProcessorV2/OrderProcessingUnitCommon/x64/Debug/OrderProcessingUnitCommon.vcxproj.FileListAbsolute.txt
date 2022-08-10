@@ -1,0 +1,2 @@
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnitCommon\x64\Debug\OrderProcessingUnitCommon.vcxproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\work\OrderProcessor-2022Jul14\OrderProcessor\OrderProcessingUnitCommon\x64\Debug\OrderProcessingUnitCommon.vcxproj.CopyComplete
