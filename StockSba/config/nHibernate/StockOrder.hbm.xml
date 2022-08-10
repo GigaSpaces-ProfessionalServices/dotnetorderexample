@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="GigaSpaces.Examples.StockSba.Commons" namespace="GigaSpaces.Examples.StockSba.Commons.Entities">
+    <class name="GigaSpaces.Examples.StockSba.Commons.Entities.StockOrder" table="StockOrder">
+		    <id name="OrderID" type="string" >
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="Action" />
+		<property name="Quantity" />
+        <property name="SubTotal" />
+        <property name="PercentageChange" />
+        <property name="Done" />
+    </class>
+</hibernate-mapping>

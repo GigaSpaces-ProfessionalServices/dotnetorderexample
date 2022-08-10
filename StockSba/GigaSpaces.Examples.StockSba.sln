@@ -1,0 +1,64 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigaSpaces.Examples.StockSba.Mirror", "Mirror\GigaSpaces.Examples.StockSba.Mirror.csproj", "{75758A09-6FD0-495E-AD5A-38BBB0B40E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigaSpaces.Examples.StockSba.Feeder", "Feeder\GigaSpaces.Examples.StockSba.Feeder.csproj", "{8BC35194-6647-4709-99F0-3270E48F5B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigaSpaces.Examples.StockSba.Processor", "Processor\GigaSpaces.Examples.StockSba.Processor.csproj", "{1E4A446B-0AFA-415B-AC25-FF7179F93293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigaSpaces.Examples.StockSba.Commons", "Commons\GigaSpaces.Examples.StockSba.Commons.csproj", "{841CB974-DFFA-4B7D-88A5-E42FA5BA6946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigaSpaces.Examples.StockSba.PuDebugExecuter", "PuDebugExecuter\GigaSpaces.Examples.StockSba.PuDebugExecuter.csproj", "{C560C485-0E8D-4476-9504-6D4A54476B58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{5DE195E3-01DA-4572-BDC3-DA7B58DB79BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nHibernate", "nHibernate", "{F3F4B91C-ED5C-439C-85D3-159C046DE583}"
+	ProjectSection(SolutionItems) = preProject
+		config\nHibernate\Fills.hbm.xml = config\nHibernate\Fills.hbm.xml
+		config\nHibernate\nHibernate.cfg.xml = config\nHibernate\nHibernate.cfg.xml
+		config\nHibernate\Orders.hbm.xml = config\nHibernate\Orders.hbm.xml
+		config\nHibernate\Person.hbm.xml = config\nHibernate\Person.hbm.xml
+		config\nHibernate\StatusRecord.hbm.xml = config\nHibernate\StatusRecord.hbm.xml
+		config\nHibernate\StockFill.hbm.xml = config\nHibernate\StockFill.hbm.xml
+		config\nHibernate\StockOrder.hbm.xml = config\nHibernate\StockOrder.hbm.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75758A09-6FD0-495E-AD5A-38BBB0B40E93}.Debug|x64.ActiveCfg = Debug|x64
+		{75758A09-6FD0-495E-AD5A-38BBB0B40E93}.Debug|x64.Build.0 = Debug|x64
+		{75758A09-6FD0-495E-AD5A-38BBB0B40E93}.Release|x64.ActiveCfg = Release|x64
+		{75758A09-6FD0-495E-AD5A-38BBB0B40E93}.Release|x64.Build.0 = Release|x64
+		{8BC35194-6647-4709-99F0-3270E48F5B93}.Debug|x64.ActiveCfg = Debug|x64
+		{8BC35194-6647-4709-99F0-3270E48F5B93}.Debug|x64.Build.0 = Debug|x64
+		{8BC35194-6647-4709-99F0-3270E48F5B93}.Release|x64.ActiveCfg = Release|x64
+		{8BC35194-6647-4709-99F0-3270E48F5B93}.Release|x64.Build.0 = Release|x64
+		{1E4A446B-0AFA-415B-AC25-FF7179F93293}.Debug|x64.ActiveCfg = Debug|x64
+		{1E4A446B-0AFA-415B-AC25-FF7179F93293}.Debug|x64.Build.0 = Debug|x64
+		{1E4A446B-0AFA-415B-AC25-FF7179F93293}.Release|x64.ActiveCfg = Release|x64
+		{1E4A446B-0AFA-415B-AC25-FF7179F93293}.Release|x64.Build.0 = Release|x64
+		{841CB974-DFFA-4B7D-88A5-E42FA5BA6946}.Debug|x64.ActiveCfg = Debug|x64
+		{841CB974-DFFA-4B7D-88A5-E42FA5BA6946}.Debug|x64.Build.0 = Debug|x64
+		{841CB974-DFFA-4B7D-88A5-E42FA5BA6946}.Release|x64.ActiveCfg = Release|x64
+		{841CB974-DFFA-4B7D-88A5-E42FA5BA6946}.Release|x64.Build.0 = Release|x64
+		{C560C485-0E8D-4476-9504-6D4A54476B58}.Debug|x64.ActiveCfg = Debug|x64
+		{C560C485-0E8D-4476-9504-6D4A54476B58}.Debug|x64.Build.0 = Debug|x64
+		{C560C485-0E8D-4476-9504-6D4A54476B58}.Release|x64.ActiveCfg = Release|x64
+		{C560C485-0E8D-4476-9504-6D4A54476B58}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3F4B91C-ED5C-439C-85D3-159C046DE583} = {5DE195E3-01DA-4572-BDC3-DA7B58DB79BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70402699-F2E0-4760-BFF0-6977075A39BE}
+	EndGlobalSection
+EndGlobal

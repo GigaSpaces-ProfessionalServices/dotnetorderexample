@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="GigaSpaces.Examples.StockSba.Commons" namespace="GigaSpaces.Examples.StockSba.Commons.Entities">
+    <class name="GigaSpaces.Examples.StockSba.Commons.Entities.StockFill" table="StockFill">
+		    <id name="FillID" type="string" >
+            <column name="FillID" />
+            <generator class="assigned" />
+        </id>
+        <property name="OrderID" />
+        <property name="InvestmentID" />
+        <property name="Action" />
+        <property name="Quantity" />
+        <property name="ExecutionTime" />
+		<property name="DateTrade" />
+        <property name="StartPrice" />
+        <property name="ExecutionPrice" />
+        <property name="PriceCurrency" />
+        <property name="Processed" />
+    </class>
+</hibernate-mapping>

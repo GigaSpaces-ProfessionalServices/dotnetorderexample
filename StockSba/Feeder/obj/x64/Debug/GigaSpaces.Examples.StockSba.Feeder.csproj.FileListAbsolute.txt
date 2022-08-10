@@ -1,0 +1,8 @@
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockfeeder\pu.config
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockfeeder\GigaSpaces.Examples.StockSba.Feeder.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockfeeder\GigaSpaces.Examples.StockSba.Feeder.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Feeder\obj\x64\Debug\GigaSpaces.Examples.StockSba.Feeder.csproj.AssemblyReference.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Feeder\obj\x64\Debug\GigaSpaces.Examples.StockSba.Feeder.csproj.CoreCompileInputs.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Feeder\obj\x64\Debug\GigaSpaces.Examples.StockSba.Feeder.csproj.CopyComplete
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Feeder\obj\x64\Debug\GigaSpaces.Examples.StockSba.Feeder.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Feeder\obj\x64\Debug\GigaSpaces.Examples.StockSba.Feeder.pdb

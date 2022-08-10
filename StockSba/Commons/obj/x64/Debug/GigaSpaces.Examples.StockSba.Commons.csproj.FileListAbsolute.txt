@@ -1,0 +1,7 @@
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Release\GigaSpaces.Examples.StockSba.Commons.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Release\GigaSpaces.Examples.StockSba.Commons.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Commons\obj\x64\Debug\GigaSpaces.Examples.StockSba.Commons.csproj.AssemblyReference.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Commons\obj\x64\Debug\GigaSpaces.Examples.StockSba.Commons.csproj.CoreCompileInputs.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Commons\obj\x64\Debug\GigaSpaces.Examples.StockSba.Commons.csproj.CopyComplete
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Commons\obj\x64\Debug\GigaSpaces.Examples.StockSba.Commons.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Commons\obj\x64\Debug\GigaSpaces.Examples.StockSba.Commons.pdb

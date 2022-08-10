@@ -1,0 +1,16 @@
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockprocessor\NHibernateCfg\nHibernate.cfg.xml
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockprocessor\NHibernateCfg\StatusRecord.hbm.xml
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockprocessor\NHibernateCfg\StockFill.hbm.xml
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockprocessor\NHibernateCfg\StockOrder.hbm.xml
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockprocessor\pu.config
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockprocessor\sla.xml
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockprocessor\GigaSpaces.Examples.StockSba.Processor.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockprocessor\GigaSpaces.Examples.StockSba.Processor.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Processor\obj\x64\Debug\GigaSpaces.Examples.StockSba.Processor.csproj.AssemblyReference.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Processor\obj\x64\Debug\GigaSpaces.Examples.StockSba.Processor.csproj.CoreCompileInputs.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Processor\obj\x64\Debug\GigaSpaces.Examples.StockSba.Processor.csproj.CopyComplete
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Processor\obj\x64\Debug\GigaSpaces.Examples.StockSba.Processor.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Processor\obj\x64\Debug\GigaSpaces.Examples.StockSba.Processor.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockprocessor\NHibernateCfg\Fills.hbm.xml
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockprocessor\NHibernateCfg\Orders.hbm.xml
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockprocessor\NHibernateCfg\Person.hbm.xml

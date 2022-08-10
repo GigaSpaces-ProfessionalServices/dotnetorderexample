@@ -1,0 +1,1306 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 12">
+<meta name=Originator content="Microsoft Word 12">
+<link rel=File-List href="readme_files/filelist.xml">
+<title>Stock SBA Example</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Pini Cohen</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Eitan Yanovsky</o:LastAuthor>
+  <o:Revision>7</o:Revision>
+  <o:TotalTime>3131</o:TotalTime>
+  <o:Created>2008-06-23T09:18:00Z</o:Created>
+  <o:LastSaved>2009-09-10T11:13:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>688</o:Words>
+  <o:Characters>3927</o:Characters>
+  <o:Company>GigaSpaces Technologies</o:Company>
+  <o:Lines>32</o:Lines>
+  <o:Paragraphs>9</o:Paragraphs>
+  <o:CharactersWithSpaces>4606</o:CharactersWithSpaces>
+  <o:Version>12.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=themeData href="readme_files/themedata.thmx">
+<link rel=colorSchemeMapping href="readme_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>BestFit</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>HE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" LatentStyleCount="267">
+  <w:LsdException Locked="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="99" Name="No List"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<link rel=Stylesheet type="text/css" media=all
+href="../../../../Builds/gigaspaces-xap-6.5-rc2-b2340-110/Builds/gigaspaces-xap-6.5-rc2-b2340-48/gigaspaces-xap-6.5-rc2/dotnet/doc/product.css">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610611985 1073750091 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-believe-normal-left:yes;}
+h1
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 1 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+h2
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 2 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:14.5pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+h3
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 3 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+h4
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 4 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+h5
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 5 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+h6
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 6 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	font-size:7.5pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-unhide:no;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+pre
+	{mso-style-unhide:no;
+	mso-style-link:"HTML Preformatted Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+tt
+	{mso-style-unhide:no;
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 1";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#365F91;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 3";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;}
+span.Heading4Char
+	{mso-style-name:"Heading 4 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 4";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;
+	font-style:italic;}
+span.Heading5Char
+	{mso-style-name:"Heading 5 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 5";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#243F60;
+	mso-themecolor:accent1;
+	mso-themeshade:127;}
+span.Heading6Char
+	{mso-style-name:"Heading 6 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 6";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#243F60;
+	mso-themecolor:accent1;
+	mso-themeshade:127;
+	font-style:italic;}
+span.HTMLPreformattedChar
+	{mso-style-name:"HTML Preformatted Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"HTML Preformatted";
+	font-family:Consolas;
+	mso-ascii-font-family:Consolas;
+	mso-hansi-font-family:Consolas;}
+p.formuladsp, li.formuladsp, div.formuladsp
+	{mso-style-name:formuladsp;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.fragment, li.fragment, div.fragment
+	{mso-style-name:fragment;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.mdtable, li.mdtable, div.mdtable
+	{mso-style-name:mdtable;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#F4F4FB;
+	border:none;
+	mso-border-alt:solid #868686 .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 0cm 0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.mdrow, li.mdrow, div.mdrow
+	{mso-style-name:mdrow;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.mdescleft, li.mdescleft, div.mdescleft
+	{mso-style-name:mdescleft;
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	background:#FAFAFA;
+	font-size:9.5pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	font-style:italic;}
+p.mdescright, li.mdescright, div.mdescright
+	{mso-style-name:mdescright;
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	background:#FAFAFA;
+	font-size:9.5pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	font-style:italic;}
+p.memitemleft, li.memitemleft, div.memitemleft
+	{mso-style-name:memitemleft;
+	mso-style-unhide:no;
+	margin:3.0pt;
+	mso-pagination:widow-orphan;
+	background:#FAFAFA;
+	border:none;
+	mso-border-top-alt:solid #E0E0E0 .75pt;
+	padding:0cm;
+	mso-padding-alt:1.0pt 0cm 0cm 0cm;
+	font-size:9.5pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.memitemright, li.memitemright, div.memitemright
+	{mso-style-name:memitemright;
+	mso-style-unhide:no;
+	margin:3.0pt;
+	mso-pagination:widow-orphan;
+	background:#FAFAFA;
+	border:none;
+	mso-border-top-alt:solid #E0E0E0 .75pt;
+	padding:0cm;
+	mso-padding-alt:1.0pt 0cm 0cm 0cm;
+	font-size:9.5pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.memtemplitemleft, li.memtemplitemleft, div.memtemplitemleft
+	{mso-style-name:memtemplitemleft;
+	mso-style-unhide:no;
+	margin:3.0pt;
+	mso-pagination:widow-orphan;
+	background:#FAFAFA;
+	font-size:9.5pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.memtemplitemright, li.memtemplitemright, div.memtemplitemright
+	{mso-style-name:memtemplitemright;
+	mso-style-unhide:no;
+	margin:3.0pt;
+	mso-pagination:widow-orphan;
+	background:#FAFAFA;
+	font-size:9.5pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.memtemplparams, li.memtemplparams, div.memtemplparams
+	{mso-style-name:memtemplparams;
+	mso-style-unhide:no;
+	margin:3.0pt;
+	mso-pagination:widow-orphan;
+	background:#FAFAFA;
+	border:none;
+	mso-border-top-alt:solid #E0E0E0 .75pt;
+	padding:0cm;
+	mso-padding-alt:1.0pt 0cm 0cm 0cm;
+	font-size:9.5pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.search, li.search, div.search
+	{mso-style-name:search;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.dirtab, li.dirtab, div.dirtab
+	{mso-style-name:dirtab;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	border:none;
+	mso-border-alt:solid #B0B0B0 .75pt;
+	padding:0cm;
+	mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+span.keyword
+	{mso-style-name:keyword;
+	mso-style-unhide:no;}
+span.keywordtype
+	{mso-style-name:keywordtype;
+	mso-style-unhide:no;}
+span.keywordflow
+	{mso-style-name:keywordflow;
+	mso-style-unhide:no;}
+span.comment
+	{mso-style-name:comment;
+	mso-style-unhide:no;}
+span.preprocessor
+	{mso-style-name:preprocessor;
+	mso-style-unhide:no;}
+span.stringliteral
+	{mso-style-name:stringliteral;
+	mso-style-unhide:no;}
+span.charliteral
+	{mso-style-name:charliteral;
+	mso-style-unhide:no;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:746653137;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1066393582 67698705 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-text:"%1\)";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1
+	{mso-list-id:783311097;
+	mso-list-type:hybrid;
+	mso-list-template-ids:377906434 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-tab-stop:54.75pt;
+	mso-level-number-position:left;
+	margin-left:54.75pt;
+	text-indent:-18.0pt;}
+@list l1:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2
+	{mso-list-id:867303573;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-390317966 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3
+	{mso-list-id:1128628102;
+	mso-list-type:hybrid;
+	mso-list-template-ids:825115262 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:54.0pt;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4
+	{mso-list-id:1622028804;
+	mso-list-template-ids:1448121752;}
+@list l4:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5
+	{mso-list-id:2088065915;
+	mso-list-type:hybrid;
+	mso-list-template-ids:237378140 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l5:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+</style>
+<![endif]--><![if mso 9]>
+<style>
+p.MsoNormal
+	{margin-left:15.0pt;}
+</style>
+<![endif]><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="54274" fillcolor="#eaeaea"
+  strokecolor="#369">
+  <v:fill color="#eaeaea"/>
+  <v:stroke dashstyle="dash" color="#369"/>
+  <v:textbox style='mso-fit-shape-to-text:t'/>
+  <o:colormru v:ext="edit" colors="#ddd,#eaeaea,#369"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=EN-US link="#000000" vlink=blue style='tab-interval:
+36.0pt;margin-left:15.0pt;margin-right:15.0pt'>
+
+<div class=Section1>
+
+<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=0 width=1125
+ style='width:675.0pt;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+  height:1530.4pt'>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt;height:1530.4pt'>
+  <h1><a name="_Toc169246962"><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Stock SBA Example</span></a><span style='mso-fareast-font-family:
+  "Times New Roman";color:black'><o:p></o:p></span></h1>
+  <h3><a name="_Toc169246963"><span style='mso-fareast-font-family:"Times New Roman"'>Introduction</span></a><span
+  style='mso-fareast-font-family:"Times New Roman";color:black'><o:p></o:p></span></h3>
+  <p style='margin-left:18.75pt'><span style='color:black'>The stock SBA
+  example demonstrates a common Space-Based Architecture application containing the following components.<o:p></o:p></span></p>
+  <p style='margin-left:18.75pt'><span style='color:black'>Data processor, data
+  feeder, persistent space, mirror service. <o:p></o:p></span></p>
+  <h3><span style='mso-fareast-font-family:"Times New Roman"'>This example
+  demonstrates the following<span style='color:black'><o:p></o:p></span></span></h3>
+  <p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l2 level1 lfo1;
+  tab-stops:list 36.0pt'><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+  style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span style='color:black'>Running
+  a processor with an embedded space that is a node in a cluster as a
+  Processing Unit.<o:p></o:p></span></p>
+  <p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l2 level1 lfo1;
+  tab-stops:list 36.0pt'><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+  style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span style='color:black'>Running
+  a feeder that connects remotely to the space as a Processing Unit.<o:p></o:p></span></p>
+  <p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l2 level1 lfo1;
+  tab-stops:list 36.0pt'><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+  style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span style='color:black'>Running
+  a write-behind persistency service (mirror service) as a Processing Unit.<o:p></o:p></span></p>
+  <p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l2 level1 lfo1;
+  tab-stops:list 36.0pt'><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+  style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span style='color:black'>Controlling
+  the lifecycle of a Processing Unit in the Service Grid using the GigaSpaces
+  UI.<o:p></o:p></span></p>
+  <p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l2 level1 lfo1;
+  tab-stops:list 36.0pt'><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+  style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span style='color:black'>Partitioning
+  a processing task over a cluster. <o:p></o:p></span></p>
+  <p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l2 level1 lfo1;
+  tab-stops:list 36.0pt'><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+  style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span style='color:black'>Persisting
+  objects from the space using a </span><span class=MsoHyperlink><u><span
+  style='font-size:10.0pt;font-family:"Arial","sans-serif"'><a
+  href="http://www.nhibernate.org/"><span class=SpellE><span style='color:blue'>nHibernate</span></span></a>
+  </span></u></span><span style='color:black'>-</span><span class=MsoHyperlink><span
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:blue'> </span></span><span
+  style='color:black'>based External Data Source adaptor and the mirror
+  service.<o:p></o:p></span></p>
+  <h3><span style='mso-fareast-font-family:"Times New Roman"'>Structure<o:p></o:p></span></h3>
+  <p style='margin-left:18.75pt'><span style='color:black'>The example contains
+  5 projects: <o:p></o:p></span></p>
+  <p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l5 level1 lfo2;
+  tab-stops:list 36.0pt'><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+  style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span class=SpellE><span
+  style='color:black'>GigaSpaces.Examples.StockSba.Commons</span></span><span
+  style='color:black'>: contains the entities project used in the example and
+  other common functionalities.<o:p></o:p></span></p>
+  <p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l5 level1 lfo2;
+  tab-stops:list 36.0pt'><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+  style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span class=SpellE><span
+  style='color:black'>GigaSpaces.Examples.StockSba.Feeder</span></span><span
+  style='color:black'>: writes the Fills remotely to the space. Its purpose is
+  to simulate the data flowing into the system from other
+  services/applications.<o:p></o:p></span></p>
+  <p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l5 level1 lfo2;
+  tab-stops:list 36.0pt'><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+  style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span class=SpellE><span
+  style='color:black'>GigaSpaces.Examples.StockSba.Mirror</span></span><span
+  style='color:black'>: defines the mirror service as a Processing Unit.<o:p></o:p></span></p>
+  <p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l5 level1 lfo2;
+  tab-stops:list 36.0pt'><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+  style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span class=SpellE><span
+  style='color:black'>GigaSpaces.Examples.StockSba.Processor</span></span><span
+  style='color:black'>: contains the processing logic implementation.<o:p></o:p></span></p>
+  <p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l5 level1 lfo2;
+  tab-stops:list 36.0pt'><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black'><span
+  style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span class=SpellE><span
+  style='color:black'>GigaSpaces.Examples.StockSba.PuDebugExecuter</span></span><span
+  style='color:black'>: a debugger that runs a Processing Unit lifecycle
+  locally (without using the Service Grid), and is used to locally debug the
+  Processing Units.<o:p></o:p></span></p>
+  <h3><a name="_Toc169246964"></a><a name="_Building_the_Example"></a><span
+  style='mso-bookmark:_Toc169246964'><span style='mso-fareast-font-family:"Times New Roman"'>Prerequisites<o:p></o:p></span></span></h3>
+  <h3 style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo3;
+  tab-stops:list 36.0pt'><span style='mso-bookmark:_Toc169246964'><![if !supportLists]><span
+  style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";color:black;
+  font-weight:normal'><span style='mso-list:Ignore'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span style='font-size:
+  12.0pt;mso-fareast-font-family:"Times New Roman";color:black;font-weight:
+  normal'>Download the <span class=SpellE>MySql</span> database, see: </span></span><a
+  href="http://dev.mysql.com/downloads/mysql/5.0.html#downloads"><span
+  style='mso-bookmark:_Toc169246964'><span class=SpellE><u><span
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+  "Times New Roman";color:blue;font-weight:normal'>MySQL</span></u></span></span><span
+  style='mso-bookmark:_Toc169246964'><u><span style='font-size:10.0pt;
+  font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+  color:blue;font-weight:normal'> 5.0 Community Server</span></u></span></a><span
+  style='mso-bookmark:_Toc169246964'><span class=MsoHyperlink><u><span
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+  "Times New Roman";color:blue;font-weight:normal'>,</span></u></span></span><span
+  style='mso-bookmark:_Toc169246964'><span style='font-size:12.0pt;mso-fareast-font-family:
+  "Times New Roman";color:black;font-weight:normal'> </span></span><span
+  style='mso-bookmark:_Toc169246964'><span class=GramE><span style='font-size:
+  12.0pt;mso-fareast-font-family:"Times New Roman";color:black'>Without</span></span></span><span
+  style='mso-bookmark:_Toc169246964'><span style='font-size:12.0pt;mso-fareast-font-family:
+  "Times New Roman";color:black'> installer</span></span><span
+  style='mso-bookmark:_Toc169246964'><span style='font-size:12.0pt;mso-fareast-font-family:
+  "Times New Roman";color:black;font-weight:normal'> is the recommended
+  version. Extract the database to &#8220;D:\MySQL&#8221;. It can also be
+  extracted anywhere on the hard disk, this requires an update to the database location
+  on the database-related BAT files (startMySqlPersistencyDB.bat,
+  MySqlCreateDbAndTables.bat, see instructions below).<o:p></o:p></span></span></h3>
+  <h3 style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo3;
+  tab-stops:list 36.0pt'><span style='mso-bookmark:_Toc169246964'><![if !supportLists]><span
+  style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";color:black;
+  font-weight:normal'><span style='mso-list:Ignore'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span style='font-size:
+  12.0pt;mso-fareast-font-family:"Times New Roman";color:black;font-weight:
+  normal'>Download the <span class=SpellE>MySql</span> .NET connector. See </span></span><a
+  href="http://dev.mysql.com/downloads/connector/net/5.1.html"><span
+  style='mso-bookmark:_Toc169246964'><u><span style='font-size:10.0pt;
+  font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+  color:blue;font-weight:normal'>Connector/Net download</span></u></span></a><span
+  style='mso-bookmark:_Toc169246964'><span style='font-size:12.0pt;mso-fareast-font-family:
+  "Times New Roman";color:black;font-weight:normal'>, the </span></span><span
+  style='mso-bookmark:_Toc169246964'><span style='font-size:12.0pt;mso-fareast-font-family:
+  "Times New Roman";color:black'>Windows Binaries, no installer (ZIP)</span></span><span
+  style='mso-bookmark:_Toc169246964'><span style='font-size:12.0pt;mso-fareast-font-family:
+  "Times New Roman";color:black;font-weight:normal'> is the recommended
+  version. Extract the file anywhere on the disk. Copy the MySql.Data.dll from
+  the \bin directory to the &lt;GigaSpaces Root &gt;\Bin directory.<o:p></o:p></span></span></h3>
+  <h3><span style='mso-bookmark:_Toc169246964'><a name="_Building_the_Example_1"></a><span
+  style='mso-fareast-font-family:"Times New Roman"'>Building the Example </span></span><span
+  style='mso-fareast-font-family:"Times New Roman";color:black'><o:p></o:p></span></h3>
+  <ol start=1 type=1>
+   <li class=MsoNormal style='color:black;mso-margin-top-alt:auto;margin-bottom:
+       4.5pt;mso-list:l4 level1 lfo4;tab-stops:list 36.0pt'>Browse to the
+       example directory (<span style='mso-field-code:" HYPERLINK \0022\0022 "'><tt><span
+       style='font-size:10.0pt;color:windowtext'>&lt;GigaSpaces Root&gt;</span></tt><span
+       class=MsoHyperlink>\</span><tt><span style='font-size:10.0pt'>Examples\</span></tt></span><span
+       class=SpellE><tt><span style='font-size:10.0pt;color:windowtext'>StockSba</span></tt></span>).<o:p></o:p></li>
+  </ol>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:4.5pt;
+  margin-left:36.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo4;tab-stops:
+  list 36.75pt'><![if !supportLists]><span style='mso-list:Ignore'>2.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]><span
+  dir=LTR></span>Double-click the <u><span style='font-size:10.0pt;font-family:
+  "Courier New";color:blue'><a
+  href="../../../../Builds/gigaspaces-xap-6.5-rc2-b2340-110/gigaspaces-xap-6.5-rc2/Builds/gigaspaces-xap-6.5-rc2-b2340-48/gigaspaces-xap-6.5-rc2/dotnet/examples/StockSba/compile.bat"><span
+  style='color:windowtext;text-decoration:none;text-underline:none'>Build.bat</span></a></span></u><span
+  style='color:blue'> </span>file<span style='color:blue'> </span>to compile
+  the example. <span style='color:black'>This script also copied the deployment
+  files to the deploy directory. </span></p>
+  <h3><span style='mso-fareast-font-family:"Times New Roman"'>Opening .NET
+  Solution with Microsoft Visual Studio <o:p></o:p></span></h3>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:4.5pt;
+  margin-left:72.0pt;text-indent:-53.25pt;mso-list:l4 level2 lfo4;tab-stops:
+  list 36.75pt 72.0pt'><![if !supportLists]><span style='color:black'><span
+  style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span style='color:black'>Double-click
+  the <span class=SpellE>GigaSpaces.Examples.StockSba.sln</span> file. <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:4.5pt;
+  margin-left:54.75pt;text-indent:-36.0pt;mso-list:l4 level2 lfo4;tab-stops:
+  list 36.75pt 72.0pt'><![if !supportLists]><span style='color:black'><span
+  style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span style='color:black'>Choose
+  <b>Build</b> &gt; <b>Build Solution</b> menu. The project files and
+  dependencies are created and copied to the release/ directory.<o:p></o:p></span></p>
+  <h3><span style='mso-fareast-font-family:"Times New Roman"'>Running the
+  Example<o:p></o:p></span></h3>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:4.5pt;
+  margin-left:54.75pt;text-indent:-36.0pt;mso-list:l1 level1 lfo5;tab-stops:
+  list 36.75pt 54.75pt'><![if !supportLists]><span style='color:black'><span
+  style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span style='color:black'>The
+  example must be compiled before running (see <a
+  href="#_Building_the_Example_1"><u><span style='font-size:10.0pt;font-family:
+  "Arial","sans-serif";color:blue'>Building the Example</span></u></a>).<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:4.5pt;
+  margin-left:54.75pt;text-indent:-36.0pt;mso-list:l1 level1 lfo5;tab-stops:
+  list 36.75pt 54.75pt'><![if !supportLists]><span style='color:black'><span
+  style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span style='color:black'>Start
+  the database. <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:4.5pt;
+  margin-left:54.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo6;tab-stops:
+  list 54.0pt'><![if !supportLists]><tt><span style='font-size:10.0pt;
+  font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span></tt><![endif]><span dir=LTR></span><span
+  style='color:black'>If <span class=SpellE>its</span> the first time you are
+  running the example and the database and tables have not been created yet, go
+  to <span style='mso-field-code:" HYPERLINK \0022\0022 "'><tt><span
+  style='font-size:10.0pt;color:windowtext'>&lt;GigaSpaces Root&gt;</span></tt><span
+  class=MsoHyperlink>\</span><tt><span style='font-size:10.0pt'>Examples\</span></tt></span></span><span
+  class=SpellE><tt><span style='font-size:10.0pt'>StockSba</span></tt></span><tt><span
+  style='font-size:10.0pt'>\tools </span></tt><span style='color:black'>and run
+  the</span><tt><span style='font-size:10.0pt'> MySqlCreateDbAndTables.bat </span></tt><span
+  style='color:black'>file. If the database installation is not located in </span><span
+  style='font-size:10.0pt;color:black'>&#8220;D:\MySQL&#8221;</span><span
+  style='color:black'>, edit the .bat file and update the <span class=SpellE>DBLocation</span>
+  VAR in the file to the correct installation path</span><tt><span
+  style='font-size:10.0pt'>.<o:p></o:p></span></tt></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:4.5pt;
+  margin-left:54.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo6;tab-stops:
+  list 54.0pt'><![if !supportLists]><tt><span style='font-size:10.0pt;
+  font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span></tt><![endif]><span dir=LTR></span><span
+  style='color:black'>To run the database, double-click</span><tt><span
+  style='font-size:10.0pt'> </span></tt><span style='color:black'><span
+  style='mso-field-code:" HYPERLINK \0022\0022 "'><tt><span style='font-size:
+  10.0pt;color:windowtext'>&lt;GigaSpaces Root&gt;</span></tt><span
+  class=MsoHyperlink>\</span><tt><span style='font-size:10.0pt'>Examples\</span></tt></span></span><span
+  class=SpellE><tt><span style='font-size:10.0pt'>StockSba</span></tt></span><tt><span
+  style='font-size:10.0pt'>\startMySqlPersistencyDB.bat</span></tt><span
+  style='color:black'>. If the database installation is not located in </span><span
+  style='font-size:10.0pt;color:black'>&#8220;D:\MySQL&#8221;</span><span
+  style='color:black'>, edit the .bat file and update the <span class=SpellE>DBLocation</span>
+  VAR in the file to the correct installation path.</span><tt><span
+  style='font-size:10.0pt'><o:p></o:p></span></tt></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:4.5pt;
+  margin-left:36.75pt;text-indent:-18.0pt;mso-list:l1 level1 lfo5;tab-stops:
+  list 36.75pt 54.75pt'><![if !supportLists]><span style='color:black'><span
+  style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span style='color:black'>Run
+  the GSM, two GSCs and GigaSpaces UI: go to &lt;GigaSpaces Root&gt;\Bin and run </span><tt><span
+  style='font-size:10.0pt'>Gs-agent.exe</span></tt><span style='color:black'> and run <tt><span
+          style='font-size:10.0pt'>Gs-ui.exe</span></tt>.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:4.5pt;
+  margin-left:36.75pt;text-indent:-18.0pt;mso-list:l1 level1 lfo5;tab-stops:
+  list 36.75pt 54.75pt'><![if !supportLists]><span style='color:black'><span
+  style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span style='color:black'>Use
+  the GigaSpaces UI to deploy and run the Processing Units. Deploying all of
+  the services on a partitioned cluster requires a large amount of
+  memory and creates heavy load on the CPU. Therefore, it is recommended to
+  split the example to more than a single machine. For instructions, see the </span><span
+  class=MsoHyperlink><u><span style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:blue'><a
+  href="http://docs.gigaspaces.com/sbp/dotnet-your-first-xap-application.html"><span
+  style='color:black'>Stock SBA Example documentation</span></a>.</span></u></span><span
+  style='color:black'><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:4.5pt;
+  margin-left:54.75pt;text-indent:-36.0pt;mso-list:l1 level1 lfo5;tab-stops:
+  list 36.75pt 54.75pt'><![if !supportLists]><span style='color:black'><span
+  style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span style='color:black'>The
+  recommended order to run the Processing Units is: <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:4.5pt;
+  margin-left:72.0pt;text-indent:-18.0pt;mso-list:l1 level2 lfo5;tab-stops:
+  list 72.0pt'><![if !supportLists]><span style='color:black'><span
+  style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span class=SpellE><span
+  style='color:black'>stockmirror</span></span><span style='color:black'><span
+  style='mso-spacerun:yes'>&nbsp; </span>- cluster schema: &lt;none&gt;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:4.5pt;
+  margin-left:72.0pt;text-indent:-18.0pt;mso-list:l1 level2 lfo5;tab-stops:
+  list 72.0pt'><![if !supportLists]><span style='color:black'><span
+  style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span class=SpellE><span
+  class=GramE><span style='color:black'>stockprocessor</span></span></span><span
+  class=GramE><span style='color:black'><span style='mso-spacerun:yes'>&nbsp;
+  </span>-</span></span><span style='color:black'> partitioned cluster schema.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:4.5pt;
+  margin-left:72.0pt;text-indent:-18.0pt;mso-list:l1 level2 lfo5;tab-stops:
+  list 72.0pt'><![if !supportLists]><span style='color:black'><span
+  style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span dir=LTR></span><span class=SpellE><span
+  style='color:black'>stockfeeder</span></span><span style='color:black'> -
+  cluster schema: &lt;none&gt;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:4.5pt;
+  margin-left:54.0pt'><span style='color:black'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<h1><span style='mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></h1>
+
+</div>
+
+</body>
+
+</html>

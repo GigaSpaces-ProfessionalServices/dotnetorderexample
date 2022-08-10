@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="GigaSpaces.Examples.StockSba.Commons" namespace="GigaSpaces.Examples.StockSba.Commons.Entities">
+    <class name="GigaSpaces.Examples.StockSba.Commons.Entities.StatusRecord" table="StatusRecord">
+		    <id name="StatusRecordType" type="string" >
+            <column name="StatusRecordType" />
+            <generator class="assigned" />
+        </id>
+		  <property name="LastOrderId" />
+    </class>
+</hibernate-mapping>

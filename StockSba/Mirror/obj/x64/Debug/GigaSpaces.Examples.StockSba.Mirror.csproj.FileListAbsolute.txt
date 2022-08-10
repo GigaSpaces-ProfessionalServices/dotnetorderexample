@@ -1,0 +1,15 @@
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockmirror\NHibernateCfg\nHibernate.cfg.xml
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockmirror\NHibernateCfg\StatusRecord.hbm.xml
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockmirror\NHibernateCfg\StockFill.hbm.xml
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockmirror\NHibernateCfg\StockOrder.hbm.xml
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockmirror\pu.config
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockmirror\GigaSpaces.Examples.StockSba.Mirror.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockmirror\GigaSpaces.Examples.StockSba.Mirror.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Mirror\obj\x64\Debug\GigaSpaces.Examples.StockSba.Mirror.csproj.AssemblyReference.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Mirror\obj\x64\Debug\GigaSpaces.Examples.StockSba.Mirror.csproj.CoreCompileInputs.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Mirror\obj\x64\Debug\GigaSpaces.Examples.StockSba.Mirror.csproj.CopyComplete
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Mirror\obj\x64\Debug\GigaSpaces.Examples.StockSba.Mirror.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\StockSba\Mirror\obj\x64\Debug\GigaSpaces.Examples.StockSba.Mirror.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockmirror\NHibernateCfg\Fills.hbm.xml
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockmirror\NHibernateCfg\Orders.hbm.xml
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\stockmirror\NHibernateCfg\Person.hbm.xml
