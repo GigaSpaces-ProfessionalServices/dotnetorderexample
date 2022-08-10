@@ -1,0 +1,8 @@
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\DataFeeder\pu.config
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\DataFeeder\GigaSpaces.Examples.ProcessingUnit.Feeder.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\DataFeeder\GigaSpaces.Examples.ProcessingUnit.Feeder.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Feeder\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Feeder.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Feeder\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Feeder.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Feeder\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Feeder.csproj.AssemblyReference.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Feeder\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Feeder.csproj.CoreCompileInputs.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Feeder\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Feeder.csproj.CopyComplete

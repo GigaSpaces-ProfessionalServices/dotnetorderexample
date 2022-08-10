@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+ <title>GigaSpaces XAP.NET Processing Unit Example</title>
+</head>
+<body>
+
+<h1>GigaSpaces XAP.NET Processing Unit Example</h1>
+<hr />
+
+The Processing Unit example demonstrates how to implement a basic processing unit and the different ways of deploying it. Additional documentation is available 
+<a href="https://docs.gigaspaces.com/14.5/dev-dotnet/scaling-agent-example.html">here</a>.
+
+<h2>Overview</h2>
+<p>
+ This example demonstrates the following:
+ <ul>
+   <li>Creating a simple data feeder as a processing unit</li>
+   <li>Creating a simple data processor as a processing unit</li>
+   <li>Deploying the processing units into the service grid</li>
+   <li>Deploying the processing units in a stand alone container</li>
+ </ul>
+</p>
+<h2>Structure</h2>
+<p>
+ The example contains 4 projects:
+ <ul>
+   <li>Processing Unit Entities project that contains data model object</li>
+   <li>Processing Unit Feeder project that contains the data feeder</li>
+   <li>Processing Unit Processor project that contains the data processor</li>
+   <li>PUDebugExecuter project that runs the processing units in a console application to allow easier debugging</li>
+ </ul>
+</p>
+
+ <h2>Processing Units</h2>
+ <p>
+  The example contains two processing units and the data object
+ <ul>
+    <li><b>DataProcessor:</b> implements the IProcessingUnit interface and it is in charge of processing the data</li>
+    <li><b>DataFeeder:</b> implements the IProcessingUnit interface and it is in charge of feeding the cluster with unprocessed data</li>
+    <li><b>Data:</b> simple object that represent our data model within the cluster</li>
+ </ul>
+ </p>
+ <h2>Building the Example</h2>
+ <p><b>Step 1:</b> Browse to the example directory (<b><code>$GS_HOME\Examples\ProcessingUnit</code></b>).</p>
+ <p><b>Step 2:</b> Double-click the <b><code>Build.bat</code></b> file to compile the .NET, files are created in the $GS_HOME\Examples\ProcessingUnit\release\ directory and the feeder and processor are created in each project dir under \Deployment directory. This script will also copy the all the needed files for deploying the processing units within the service grid using the gs-webui.</p>
+
+ <h2>Opening .NET Solution with Microsoft Visual Studio</h2>
+ <p><b>Step 1:</b>  Double-click the <b><code>GigaSpaces.Examples.ProcessingUnit.Data.sln</code></b> file, depending on the version of Visual Studio you are using.</p>
+ <p><b>Step 2:</b>  Choose <b><code>Build > Build Solution</code></b> menu. This will build the projects and will copy all the necessary files for deployment.</p>
+
+<h2>Running the Example</h2>
+<p><b>Step 1:</b> The example must be compiled before running.</p>
+<p><b>Step 2:</b> Start a local GigaSpaces Agent: <b><code>$ ..\..\bin\gs host run-agent --auto --gsc=3</code></b></p>
+<p><b>Step 3:</b> Deploy the DataProcessor from the webUI to deploy a data grid named DataProcessor, use these attributes:
+<ul>
+ <li>Cluster Schema = Partitioned</li>
+ <li>Number Of Instances = 1</li>
+ <li>Number of Backups = 1</li>
+</ul>
+ Press button: Deploy
+</p>
+<p><b>Step 4:</b> Deploy the DataFeeder from the webUI to deploy a data grid named DataFeeder, no need of further attributes.</p>
+</body>
+</html>

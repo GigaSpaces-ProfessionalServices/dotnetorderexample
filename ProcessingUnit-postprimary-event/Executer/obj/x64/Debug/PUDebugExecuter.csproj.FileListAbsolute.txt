@@ -1,0 +1,7 @@
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Release\pu.config
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Release\sla.xml
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Release\Executer.exe.config
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Release\Executer.exe
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Release\Executer.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Executer\obj\x64\Debug\Executer.exe
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Executer\obj\x64\Debug\Executer.pdb

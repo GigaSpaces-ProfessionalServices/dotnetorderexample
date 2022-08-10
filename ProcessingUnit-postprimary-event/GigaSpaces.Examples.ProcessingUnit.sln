@@ -1,0 +1,49 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigaSpaces.Examples.ProcessingUnit.Common", "Common\GigaSpaces.Examples.ProcessingUnit.Common.csproj", "{A17D4B36-2808-4619-BF70-678D7F6B9079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PUDebugExecuter", "Executer\PUDebugExecuter.csproj", "{5682AF50-CF16-4FFC-96A6-60E55FC30E38}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A17D4B36-2808-4619-BF70-678D7F6B9079} = {A17D4B36-2808-4619-BF70-678D7F6B9079}
+		{4C686947-794F-4F16-BE39-BB6D3A8E7CD7} = {4C686947-794F-4F16-BE39-BB6D3A8E7CD7}
+		{91974CE2-45DF-495F-AC95-B96043DD72A8} = {91974CE2-45DF-495F-AC95-B96043DD72A8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigaSpaces.Examples.ProcessingUnit.Feeder", "Feeder\GigaSpaces.Examples.ProcessingUnit.Feeder.csproj", "{4C686947-794F-4F16-BE39-BB6D3A8E7CD7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A17D4B36-2808-4619-BF70-678D7F6B9079} = {A17D4B36-2808-4619-BF70-678D7F6B9079}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigaSpaces.Examples.ProcessingUnit.Processor", "Processor\GigaSpaces.Examples.ProcessingUnit.Processor.csproj", "{91974CE2-45DF-495F-AC95-B96043DD72A8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A17D4B36-2808-4619-BF70-678D7F6B9079} = {A17D4B36-2808-4619-BF70-678D7F6B9079}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A17D4B36-2808-4619-BF70-678D7F6B9079}.Debug|x64.ActiveCfg = Debug|x64
+		{A17D4B36-2808-4619-BF70-678D7F6B9079}.Debug|x64.Build.0 = Debug|x64
+		{A17D4B36-2808-4619-BF70-678D7F6B9079}.Release|x64.ActiveCfg = Release|x64
+		{A17D4B36-2808-4619-BF70-678D7F6B9079}.Release|x64.Build.0 = Release|x64
+		{5682AF50-CF16-4FFC-96A6-60E55FC30E38}.Debug|x64.ActiveCfg = Debug|x64
+		{5682AF50-CF16-4FFC-96A6-60E55FC30E38}.Debug|x64.Build.0 = Debug|x64
+		{5682AF50-CF16-4FFC-96A6-60E55FC30E38}.Release|x64.ActiveCfg = Release|x64
+		{5682AF50-CF16-4FFC-96A6-60E55FC30E38}.Release|x64.Build.0 = Release|x64
+		{4C686947-794F-4F16-BE39-BB6D3A8E7CD7}.Debug|x64.ActiveCfg = Debug|x64
+		{4C686947-794F-4F16-BE39-BB6D3A8E7CD7}.Debug|x64.Build.0 = Debug|x64
+		{4C686947-794F-4F16-BE39-BB6D3A8E7CD7}.Release|x64.ActiveCfg = Release|x64
+		{4C686947-794F-4F16-BE39-BB6D3A8E7CD7}.Release|x64.Build.0 = Release|x64
+		{91974CE2-45DF-495F-AC95-B96043DD72A8}.Debug|x64.ActiveCfg = Debug|x64
+		{91974CE2-45DF-495F-AC95-B96043DD72A8}.Debug|x64.Build.0 = Debug|x64
+		{91974CE2-45DF-495F-AC95-B96043DD72A8}.Release|x64.ActiveCfg = Release|x64
+		{91974CE2-45DF-495F-AC95-B96043DD72A8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
