@@ -155,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="CustomTransaction.cpp" />
     <ClCompile Include="FillFeeder.cpp" />
     <ClCompile Include="FillProcessor.cpp" />
     <ClCompile Include="GS_Fill.cpp" />

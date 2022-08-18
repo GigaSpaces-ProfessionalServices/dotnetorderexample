@@ -3,6 +3,7 @@ using namespace System;
 using namespace GigaSpaces::Core;
 using namespace GigaSpaces::Core::Metadata;
 
+[Serializable]
 [SpaceClass(Persist = true)]
 ref class GS_Fill
 {

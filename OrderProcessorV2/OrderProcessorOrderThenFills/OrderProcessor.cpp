@@ -273,7 +273,7 @@ int main(array<System::String ^> ^args)
 
 	fillTimems = ((maxProcessTime - minProcessTime) / 10000);
 	avgFill = 1.0 * fillTimems / fillCnt;
-	fillMsgPerSec = (fillTime == 0) ? -1.0 : 1.0 * fillCnt / fillTimems * 1000;
+	fillMsgPerSec = 1.0 * fillCnt / fillTimems * 1000;
 	Console::WriteLine(">>>>>> Updated code : Wrote Fills: {0} in {1} ms, average {2} ms, {3} fills in sec", fillCnt, fillTimems, avgFill, fillMsgPerSec);
 //	Console::WriteLine(">>>>>> Total time taken for fills processing {0} ms, {1} fills in sec ", fillTimemsUpdated, (fillCnt/ ((maxProcessTime - minProcessTime) / 10000000)));
 
