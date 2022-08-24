@@ -1,0 +1,7 @@
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\OrderProcessorWithCSharp\Common\obj\x64\Debug\GigaSpaces.Examples.OrderProcessorWithCSharp.Common.csproj.AssemblyReference.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\OrderProcessorWithCSharp\Common\obj\x64\Debug\GigaSpaces.Examples.OrderProcessorWithCSharp.Common.csproj.CoreCompileInputs.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\OrderProcessorWithCSharp\Common\obj\x64\Debug\GigaSpaces.Examples.OrderProcessorWithCSharp.Common.csproj.CopyComplete
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\OrderProcessorWithCSharp\Release\GigaSpaces.Examples.OrderProcessorWithCSharp.Common.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\OrderProcessorWithCSharp\Release\GigaSpaces.Examples.OrderProcessorWithCSharp.Common.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\OrderProcessorWithCSharp\Common\obj\x64\Debug\GigaSpaces.Examples.OrderProcessorWithCSharp.Common.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\OrderProcessorWithCSharp\Common\obj\x64\Debug\GigaSpaces.Examples.OrderProcessorWithCSharp.Common.pdb

@@ -1,0 +1,9 @@
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\OrderProcessorWithCSharp\Executer\obj\x64\Debug\OrderProcessorWithCSharp.csproj.AssemblyReference.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\OrderProcessorWithCSharp\Executer\obj\x64\Debug\OrderProcessorWithCSharp.csproj.SuggestedBindingRedirects.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\OrderProcessorWithCSharp\Executer\obj\x64\Debug\OrderProcessorWithCSharp.csproj.CoreCompileInputs.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\OrderProcessorWithCSharp\Executer\obj\x64\Debug\Executer.exe
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\OrderProcessorWithCSharp\Executer\obj\x64\Debug\Executer.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\OrderProcessorWithCSharp\Release\Executer.exe.config
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\OrderProcessorWithCSharp\Release\Executer.exe
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\OrderProcessorWithCSharp\Release\Executer.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\OrderProcessorWithCSharp\Executer\obj\x64\Debug\OrderProcessorWithCSharp.csproj.CopyComplete

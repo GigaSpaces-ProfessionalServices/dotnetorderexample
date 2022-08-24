@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigaSpaces.Examples.OrderProcessorWithCSharp.Common", "Common\GigaSpaces.Examples.OrderProcessorWithCSharp.Common.csproj", "{A17D4B36-2808-4619-BF70-678D7F6B9079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessorWithCSharp", "Executer\OrderProcessorWithCSharp.csproj", "{5682AF50-CF16-4FFC-96A6-60E55FC30E38}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A17D4B36-2808-4619-BF70-678D7F6B9079} = {A17D4B36-2808-4619-BF70-678D7F6B9079}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A17D4B36-2808-4619-BF70-678D7F6B9079}.Debug|x64.ActiveCfg = Debug|x64
+		{A17D4B36-2808-4619-BF70-678D7F6B9079}.Debug|x64.Build.0 = Debug|x64
+		{A17D4B36-2808-4619-BF70-678D7F6B9079}.Debug|x86.ActiveCfg = Debug|x86
+		{A17D4B36-2808-4619-BF70-678D7F6B9079}.Debug|x86.Build.0 = Debug|x86
+		{A17D4B36-2808-4619-BF70-678D7F6B9079}.Release|x64.ActiveCfg = Release|x64
+		{A17D4B36-2808-4619-BF70-678D7F6B9079}.Release|x64.Build.0 = Release|x64
+		{A17D4B36-2808-4619-BF70-678D7F6B9079}.Release|x86.ActiveCfg = Release|x86
+		{A17D4B36-2808-4619-BF70-678D7F6B9079}.Release|x86.Build.0 = Release|x86
+		{5682AF50-CF16-4FFC-96A6-60E55FC30E38}.Debug|x64.ActiveCfg = Debug|x64
+		{5682AF50-CF16-4FFC-96A6-60E55FC30E38}.Debug|x64.Build.0 = Debug|x64
+		{5682AF50-CF16-4FFC-96A6-60E55FC30E38}.Debug|x86.ActiveCfg = Debug|x86
+		{5682AF50-CF16-4FFC-96A6-60E55FC30E38}.Debug|x86.Build.0 = Debug|x86
+		{5682AF50-CF16-4FFC-96A6-60E55FC30E38}.Release|x64.ActiveCfg = Release|x64
+		{5682AF50-CF16-4FFC-96A6-60E55FC30E38}.Release|x64.Build.0 = Release|x64
+		{5682AF50-CF16-4FFC-96A6-60E55FC30E38}.Release|x86.ActiveCfg = Release|x86
+		{5682AF50-CF16-4FFC-96A6-60E55FC30E38}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA456186-7AB1-4DDB-AA66-CFF0D87F675F}
+	EndGlobalSection
+EndGlobal
