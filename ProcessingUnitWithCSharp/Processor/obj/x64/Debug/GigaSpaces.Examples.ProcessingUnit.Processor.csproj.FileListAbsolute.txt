@@ -1,0 +1,14 @@
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\DataProcessor\pu.config
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\DataProcessor\sla.xml
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\DataProcessor\GigaSpaces.Examples.ProcessingUnit.Processor.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Deploy\DataProcessor\GigaSpaces.Examples.ProcessingUnit.Processor.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Processor\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Processor.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Processor\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Processor.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Processor\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Processor.csproj.AssemblyReference.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Processor\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Processor.csproj.CoreCompileInputs.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Processor\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Processor.csproj.CopyComplete
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnitWithCSharp\Processor\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Processor.csproj.AssemblyReference.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnitWithCSharp\Processor\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Processor.csproj.CoreCompileInputs.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnitWithCSharp\Processor\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Processor.csproj.CopyComplete
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnitWithCSharp\Processor\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Processor.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnitWithCSharp\Processor\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Processor.pdb

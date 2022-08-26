@@ -1,0 +1,14 @@
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Release\GigaSpaces.Examples.ProcessingUnit.Common.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Release\GigaSpaces.Examples.ProcessingUnit.Common.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Common\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Common.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Common\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Common.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Common\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Common.csproj.AssemblyReference.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Common\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Common.csproj.CoreCompileInputs.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnit\Common\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Common.csproj.CopyComplete
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnitWithCSharp\Release\GigaSpaces.Examples.ProcessingUnit.Common.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnitWithCSharp\Release\GigaSpaces.Examples.ProcessingUnit.Common.pdb
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnitWithCSharp\Common\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Common.csproj.AssemblyReference.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnitWithCSharp\Common\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Common.csproj.CoreCompileInputs.cache
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnitWithCSharp\Common\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Common.csproj.CopyComplete
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnitWithCSharp\Common\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Common.dll
+C:\GigaSpaces\XAP.NET-16.1.1-x64\NET v4.0\Examples\ProcessingUnitWithCSharp\Common\obj\x64\Debug\GigaSpaces.Examples.ProcessingUnit.Common.pdb
