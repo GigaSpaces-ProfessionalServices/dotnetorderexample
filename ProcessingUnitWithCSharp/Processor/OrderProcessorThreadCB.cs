@@ -17,11 +17,12 @@ namespace GigaSpaces.Examples.ProcessingUnit.Processor
             Console.WriteLine("*** Started OrderProcessorThread {0}", partionId);
             Console.WriteLine("*** OrderProcessorThread - Getting txManager ");
             ITransactionManager txManager = GigaSpacesFactory.CreateDistributedTransactionManager();
+
             Console.WriteLine("*** OrderProcessorThread - Created txManager ");
 
             //Timer orderTimer;
             GS_Order order = new GS_Order();
-            order.OPID = partionId;
+            //            order.OPID = partionId;
             order.Symbol = "IBM";
             order.Quantity = orderProcessor.orderQty;
             order.Price = 10;
@@ -30,8 +31,15 @@ namespace GigaSpaces.Examples.ProcessingUnit.Processor
 
             Console.WriteLine("*** OrderProcessorThread {0}: Adding {1} orders, OrderQty {2}",
                                 orderProcessor.WorkerID, orderProcessor.orderCnt, orderProcessor.orderQty);
-            long firstOrderID = partionId * orderProcessor.orderCnt + 1;
+            //            long firstOrderID = partionId * orderProcessor.orderCnt + 1;
+            //            long lastOrderID = firstOrderID + orderProcessor.orderCnt - 1;
+
+            //    long firstOrderID = 1;
+            //    long lastOrderID = orderProcessor.orderCnt;
+
+            long firstOrderID = 1 + ((orderProcessor.WorkerID - 1) * orderProcessor.orderCnt * 2);
             long lastOrderID = firstOrderID + orderProcessor.orderCnt - 1;
+
 
             // long firstOrderID = 1 + ((orderProcessor.WorkerID - 1) * orderProcessor.orderCnt);
             // long lastOrderID = firstOrderID + orderProcessor.orderCnt - 1;
@@ -41,23 +49,33 @@ namespace GigaSpaces.Examples.ProcessingUnit.Processor
             Console.ResetColor();
 
             orderProcessor.processStartTime = DateTime.Now.Ticks;
+            int noOfInstances = (int)clusterInfo.NumberOfInstances;
 
-            for (long i = firstOrderID; i <= lastOrderID; i++)
+            // for (long i = firstOrderID; i <= lastOrderID; i = i + noOfInstances)
+            long counter = 0;
+
+            for (long i = firstOrderID; counter < orderProcessor.orderCnt / noOfInstances; i++)
             {
+                if (getPartitionId(i, clusterInfo) != partionId)
+                {
+                    continue;
+                }
                 long orderTimeElapsed = DateTime.Now.Ticks;
                 ITransaction tx1 = txManager.Create();
                 order.OrderID = i;
 
                 //Console.WriteLine("Writting Order: {0} {1} ", order.OrderID, order.Symbol);
                 spaceProxy.Write(order, tx1, long.MaxValue, 1000 * 60);
+                //spaceProxy.Write(order);
                 tx1.Commit();
                 orderTimeElapsed = DateTime.Now.Ticks - orderTimeElapsed;
                 orderProcessor.orderTime += orderTimeElapsed;
-                OrderMsg orderMsg = new OrderMsg(order.OrderID.Value, order.Quantity.Value, order.Price.Value);
+                OrderMsg orderMsg = new OrderMsg(order.OrderID, order.Quantity, order.Price.Value);
                 /*if (orderMsg == null) {
                     continue;
                 }*/
                 orderProcessor.orderQueue.Enqueue(orderMsg);
+                counter++;
             }
             orderProcessor.processEndTime = DateTime.Now.Ticks;
 
@@ -74,6 +92,15 @@ namespace GigaSpaces.Examples.ProcessingUnit.Processor
 
             Console.WriteLine("*** Exiting OrderProcessorThread {0}", orderProcessor.WorkerID);
             return 0;
+        }
+
+        public static int getPartitionId(long routingValue, ClusterInfo clusterInfo)
+        {
+            return (int)(safeAbs((int)routingValue) % clusterInfo.NumberOfInstances);
+        }
+        public static int safeAbs(int value)
+        {
+            return value == int.MinValue ? int.MaxValue : Math.Abs(value);
         }
     }
 }

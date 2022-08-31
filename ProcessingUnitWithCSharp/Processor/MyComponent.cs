@@ -39,6 +39,7 @@ namespace GigaSpaces.Examples.ProcessingUnit.Processor
             Console.WriteLine(">>>>> post primary -> postPrimaryEvent " + spaceProxy.Name + ", spaceMode: " + spaceMode.ToString());
             ClusterInfo clusterInfo = ProcessingUnitContainer.Current.ClusterInfo;
             Console.WriteLine("clusterInfo : " + clusterInfo);
+            Console.WriteLine("clusterInfo.NumberOfInstances : " + clusterInfo.NumberOfInstances);
 
 
             ConcurrentQueue<OrderMsg> orderQueue = new ConcurrentQueue<OrderMsg>();
@@ -52,13 +53,16 @@ namespace GigaSpaces.Examples.ProcessingUnit.Processor
 
             long partionId = (long)(clusterInfo.InstanceId - 1);
             int totalOrders = 500000;
-            long totalPartitions = 16;
-            long ordCnt = totalOrders / totalPartitions;
+         //       int totalOrders = 1000;
+            long totalPartitions = (long)clusterInfo.NumberOfInstances;
+            //            long totalPartitions = 16;
+            long ordCnt = totalOrders;
+            //           long ordCnt = totalOrders / totalPartitions;
             long totalFills = 0;
             long orderQty = 10;
-            int numOrderWorkers = 1;
+            int numOrderWorkers = 2;
             int numFillFeederWorkers = 1;
-            int numFillProcessorWorkers = 1;
+            int numFillProcessorWorkers = 10;
 
             totalFills = ordCnt * orderQty;
             Console.WriteLine("*** Connected to space.");
@@ -70,7 +74,7 @@ namespace GigaSpaces.Examples.ProcessingUnit.Processor
             {
                 //FillFeeder *fillFeeder = new FillFeeder(i, fillQueueArray[i], orderQueueArray[i]);
                 FillFeeder fillFeeder = new FillFeeder(i, fillQueue, orderQueue);
-                Thread thread = new Thread(() => new FillFeederThread().threadRun(fillFeeder));
+                Thread thread = new Thread(() => new FillFeederThread().threadRun(fillFeeder, numFillProcessorWorkers));
                 thread.Start();
                 fillFeederIDs.Add(thread);
                 fillFeederWorkers.Add(fillFeeder);
@@ -177,7 +181,7 @@ namespace GigaSpaces.Examples.ProcessingUnit.Processor
             orderTimems = ((maxProcessTime - minProcessTime) / TimeSpan.TicksPerMillisecond);
             avgOrder = 1.0 * orderTimems / ordCnt;
             orderMsgPerSec = (long)((orderTime == 0) ? -1.0 : 1.0 * ordCnt / orderTimems * 1000);
-            Console.WriteLine(">>>>>> Updated code : Wrote Orders: {0} in {1} ms, average {2} ms, {3} orders in sec, {4} current time ", ordCnt, orderTimems, avgOrder, orderMsgPerSec, DateTime.Now.ToString("h:mm:ss tt"));
+            Console.WriteLine(">>>>>> Updated code : Wrote Orders: {0} in {1} ms, average {2} ms, {3} orders in sec, {4} current time, {5} minTicks, {6} maxTicks ", ordCnt, orderTimems, avgOrder, orderMsgPerSec, DateTime.Now.ToString("h:mm:ss tt"), minProcessTime, maxProcessTime);
 
             long fillCnt = 0;
             long fillTime = 0;
@@ -211,7 +215,7 @@ namespace GigaSpaces.Examples.ProcessingUnit.Processor
             fillTimems = ((maxProcessTime - minProcessTime) / TimeSpan.TicksPerMillisecond);
             avgFill = 1.0 * fillTimems / fillCnt;
             fillMsgPerSec = (long)((fillTime == 0) ? -1.0 : 1.0 * fillCnt / fillTimems * 1000);
-            Console.WriteLine(">>>>>> Updated code : Wrote Fills: {0} in {1} ms, average {2} ms, {3} fills in sec", fillCnt, fillTimems, avgFill, fillMsgPerSec);
+            Console.WriteLine(">>>>>> Updated code : Wrote Fills: {0} in {1} ms, average {2} ms, {3} fills in sec , {4} minTicks, {5} maxTicks ", fillCnt, fillTimems, avgFill, fillMsgPerSec, minProcessTime, maxProcessTime);
 
             Console.WriteLine("Order Processor finished successfully!");
 

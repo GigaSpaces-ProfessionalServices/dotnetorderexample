@@ -21,14 +21,15 @@ namespace GigaSpaces.Examples.ProcessingUnit.Processor
             Console.WriteLine("*** FillProcessorThread - Created txManager ");
             long partionId = (long)(clusterInfo.InstanceId - 1);
             GS_Fill fill = new GS_Fill();
-            fill.OPID = partionId;
+            //           fill.OPID = partionId;
 
-            long nextFillID = partionId * fillProcessor.fillCnt + 1;
+            /*long nextFillID =  1;
+            long lastFillID = fillProcessor.fillCnt;*/
+
+
+            long nextFillID = 1 + ((fillProcessor.WorkerID - 1) * fillProcessor.fillCnt);
             long lastFillID = nextFillID + fillProcessor.fillCnt - 1;
 
-
-            // long nextFillID = 1 + ((fillProcessor.WorkerID - 1) * fillProcessor.fillCnt);
-            // long lastFillID = nextFillID + fillProcessor.fillCnt - 1;
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("*** Start FillProcessorThread {0}: nextFillID {1}, lastFillID {2}, {3} Ticks, {4} current time", partionId, nextFillID, lastFillID, DateTime.Now.Ticks, DateTime.Now.ToString("h:mm:ss tt"));
@@ -36,6 +37,9 @@ namespace GigaSpaces.Examples.ProcessingUnit.Processor
             fillProcessor.fillCnt = 0;
 
             fillProcessor.processStartTime = DateTime.Now.Ticks;
+            long totalSleepTimems = 0;
+            int noOfInstances = (int)clusterInfo.NumberOfInstances;
+
             while (nextFillID <= lastFillID)
             {
                 //   Console.WriteLine(fillProcessor.fillQueue.Count);
@@ -43,6 +47,7 @@ namespace GigaSpaces.Examples.ProcessingUnit.Processor
                 if (fillProcessor.fillQueue.Count <= 0)
                 {
                     Thread.Sleep(500);
+                    totalSleepTimems += 500;
                     continue;
                 }
 
@@ -56,7 +61,10 @@ namespace GigaSpaces.Examples.ProcessingUnit.Processor
                 {
                     break;
                 }
-
+                if (getPartitionId(newFillMsg.OrderID, clusterInfo) != partionId)
+                {
+                    continue;
+                }
                 // fillTimer.StartTimer();
                 long fillTImeElapsed = DateTime.Now.Ticks;
                 ITransaction tx2 = txManager.Create();
@@ -70,27 +78,32 @@ namespace GigaSpaces.Examples.ProcessingUnit.Processor
                 idQuery.Projections = projections;
 
                 GS_Order orderRead = spaceProxy.Read<GS_Order>(idQuery, tx2, 1000 * 60, ReadModifiers.ExclusiveReadLock);
+                //GS_Order orderRead = spaceProxy.Read<GS_Order>(idQuery);
                 //GS_Order orderRead = spaceProxy.Read<GS_Order>(idQuery, tx2);
 
-                fill.FillID = nextFillID++;
+                fill.FillID = nextFillID + noOfInstances;
+                //                fill.FillID = nextFillID++;
                 fill.OrderID = newFillMsg.OrderID;
                 fill.LastShares = newFillMsg.LastShares;
                 fill.LastPrice = newFillMsg.LastPrice;
+                nextFillID = nextFillID + noOfInstances;
 
                 //Console.WriteLine("Writting Order: {0} {1} ", order.OrderID, order.Symbol);
                 spaceProxy.Write(fill, tx2, long.MaxValue, 1000);
+                // spaceProxy.Write(fill);
                 //Console.WriteLine("FillProcessorThread {0} - added fill", fillProcessor.WorkerID );
 
-                GS_Order orderWrite = new GS_Order();
+                /*    GS_Order orderWrite = new GS_Order();
+                    orderWrite.OrderID = orderRead.OrderID;*/
+                IdQuery<GS_Order> orderWrite = new IdQuery<GS_Order>(newFillMsg.OrderID);
 
-
-                orderWrite.OrderID = orderRead.OrderID;
 
                 ChangeSet orderChange = new ChangeSet();
                 orderChange.Increment("CalCumQty", newFillMsg.LastShares);
                 orderChange.Increment("CalExecValue", (newFillMsg.LastPrice * newFillMsg.LastShares));
                 IChangeResult<GS_Order> orderChangeResults =
                       spaceProxy.Change<GS_Order>(orderWrite, orderChange, tx2, 1000, ChangeModifiers.MemoryOnlySearch);
+                //spaceProxy.Change<GS_Order>(orderWrite, orderChange);
                 tx2.Commit(1000 * 60);
 
                 ///   fillTimer.StopTimer();
@@ -109,13 +122,22 @@ namespace GigaSpaces.Examples.ProcessingUnit.Processor
 
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("*** End FillProcessorThread {0} - Wrote Fills: {1} in {2} ms, average {3} ms, {4} fills in sec, {5} Ticks, {6} current time",
-                                partionId, fillProcessor.fillCnt, fillTimems, avgFill, fillMsgPerSec, DateTime.Now.Ticks, DateTime.Now.ToString("h:mm:ss tt"));
+            Console.WriteLine("*** End FillProcessorThread {0} - Wrote Fills: {1} in {2} ms, average {3} ms, {4} fills in sec, {5} Ticks, {6} current time, {7} totalSleepTimems",
+                                partionId, fillProcessor.fillCnt, fillTimems, avgFill, fillMsgPerSec, DateTime.Now.Ticks, DateTime.Now.ToString("h:mm:ss tt"), totalSleepTimems);
             Console.ResetColor();
 
 
             Console.WriteLine("*** Exiting FillProcessorThread {0}", fillProcessor.WorkerID);
             return 0;
+        }
+
+        public static int getPartitionId(long routingValue, ClusterInfo clusterInfo)
+        {
+            return (int)(safeAbs((int)routingValue) % clusterInfo.NumberOfInstances);
+        }
+        public static int safeAbs(int value)
+        {
+            return value == int.MinValue ? int.MaxValue : Math.Abs(value);
         }
     }
 }

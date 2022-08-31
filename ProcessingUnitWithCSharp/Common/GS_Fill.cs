@@ -9,31 +9,33 @@ namespace GigaSpaces.Examples.ProcessingUnit.Common
 	public class GS_Fill
 	{
 
-		private Nullable<long> _OPID;
-		private Nullable<long> _FillID;
-		private Nullable<long> _OrderID;
-		private Nullable<long> _LastShares;
+//		private Nullable<long> _OPID;
+		private long _FillID;
+		private long _OrderID;
+		private long _LastShares;
 		private double _LastPrice;
 
-		[SpaceRouting]
-		public Nullable<long> OPID
+	//	[SpaceRouting]
+/*		public Nullable<long> OPID
 		{
 			get { return _OPID; }
 			set { _OPID = value; }
-		}
+		}*/
 
 		[SpaceID]
-		public Nullable<long> FillID
+		public long FillID
 		{
 			get { return _FillID; }
 			set { _FillID = value; }
 		}
-		public Nullable<long> OrderID
+
+        [SpaceRouting]
+		public long OrderID
 		{
 			get { return _OrderID; }
 			set { _OrderID = value; }
 		}
-		public Nullable<long> LastShares
+		public long LastShares
 		{
 			get { return _LastShares; }
 			set { _LastShares = value; }

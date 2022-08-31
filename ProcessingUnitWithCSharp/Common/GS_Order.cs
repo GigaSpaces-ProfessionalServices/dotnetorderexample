@@ -8,24 +8,24 @@ namespace GigaSpaces.Examples.ProcessingUnit.Common
 	/// </summary>	
 	public class GS_Order
 	{
-		private Nullable<long> _OPID;
-		private Nullable<long> _OrderID;
+//		private long _OPID;
+		private long _OrderID;
 		private String _Symbol;
-		private Nullable<long> _Quantity;
+		private long _Quantity;
 		private Nullable<Double> _Price;
-		private Nullable<long> _CalCumQty;
+		private long _CalCumQty;
 		private Nullable<Double> _CalExecValue;
 
 		// Partion ID
-		[SpaceRouting]
-		public Nullable<long> OPID
+	//	[SpaceRouting]
+/*		public long OPID
 		{
 			get { return _OPID; }
 			set { _OPID = value; }
-		}
+		}*/
 
 		[SpaceID]
-		public Nullable<long> OrderID
+		public long OrderID
 		{
 			get { return _OrderID; }
 			set { _OrderID = value; }
@@ -37,7 +37,7 @@ namespace GigaSpaces.Examples.ProcessingUnit.Common
 			set { _Symbol = value; }
 		}
 
-		public Nullable<long> Quantity
+		public long Quantity
 		{
 			get { return _Quantity; }
 			set { _Quantity = value; }
@@ -47,7 +47,7 @@ namespace GigaSpaces.Examples.ProcessingUnit.Common
 			get { return _Price; }
 			set { _Price = value; }
 		}
-		public Nullable<long> CalCumQty
+		public long CalCumQty
 		{
 			get { return _CalCumQty; }
 			set { _CalCumQty = value; }
